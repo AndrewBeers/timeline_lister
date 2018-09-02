@@ -1,0 +1,20 @@
+- name: Eric Mill
+  github: konklone
+  list:
+    - one
+    - two
+    - three
+
+- name: Parker Moore
+  github: parkr
+  list:
+    - one
+    - two
+    - three
+
+- name: Liu Fengyun
+  github: liufengyun
+  list:
+    - one
+    - two
+    - three
