@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+  {% include meta.html %}
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="jumbotron" style="margin-bottom: 10px">
+      <h1>Timeline Directory Template</h1> 
+      <p>Explore a directory of timeline data.</p> 
+    </div>
+  </div>
+
+  <div class="container-fluid" id="main">
+
+    {{ content }}
+
+  </div>
+
+</body>
+</html>
